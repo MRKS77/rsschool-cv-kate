@@ -8,3 +8,5 @@
 Now I'm hardly trying to learn and develop new skills. Cause I want to change my life just like I always wanted.
 ## **Education**
 BSU, BSEU, HIT, LYNU
+## **Languages** 
+English, Chinese
