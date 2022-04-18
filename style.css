@@ -1,0 +1,114 @@
+#katerina-mikhaylova {
+    width: 100vw;
+    background-color: white;
+    color:#b5a642;
+    font: normal 40px 'Cinzel', serif;
+    padding: 0px 400px 0px 380px; 
+    text-align: center;
+    margin: 110px 0px 60px 0px;
+    text-decoration: overline;
+}
+
+.name {
+    position: sticky;
+    top: 20px;
+    height: 0px;
+    margin: 60px 0px 60px 0px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+    /* Box model */
+.first {
+    padding: 10px 0px 10px 0px;
+    background-color: #fae3e0;
+    text-align: center; 
+}
+
+.left-picture {
+    float: left;
+    position: absolute;
+    margin: 5px 10px 0px 60px;
+}
+
+.my-photo {
+    float: left;
+    position: relative;
+    margin: 90px 50px 0px 150px;
+    padding: 1%;
+    border: 2px solid #b5a642;
+}
+
+.contacts {
+    width: fit-content;
+    margin-left: 50%;
+    background-color: #faf0e6;
+    padding: 5px 10px 5px 5px;
+    border-inline-start: 2px solid #b5a642; 
+    border-inline-end: 2px solid #b5a642;
+}
+
+.second {
+    background-color: #faf0e6;
+    padding: 10px 0px 220px 15%;
+}
+
+.column-left {
+    background-color: #fae3e0;
+    float: left;
+    border-inline-start: 2px solid #b5a642; 
+    padding: 0px 5px 0px 5px;
+}
+
+.column-center {
+    background-color: #fae3e0;   
+    float: left;
+    margin: 0px 10px 0px 10px;
+    padding: 0px 15px 0px 15px;
+}
+
+.column-right {
+    background-color: #fae3e0; 
+    float: left;
+    border-inline-end: 2px solid #b5a642;
+    padding: 0px 15px 0px 15px;
+}
+
+.head {
+    text-decoration: overline;
+}
+
+.third {
+    padding: 20px 250px 20px 250px;
+    background-color: #f8f8ff;
+    align-items: center;
+    justify-content: center;
+    text-align: center; 
+}
+
+.footer {
+    text-align: center;
+    color: #b5a642;
+    padding: 15px 0px 10px 0px;
+    font-size: 15px;
+}
+
+body {
+    background-color: #fff;
+    color: #8a8080;
+    font: 18px 'Garamond', serif;
+}
+
+h2 {
+    color:#8b7b12;
+    font: normal 30px 'Cinzel', serif;
+    text-align: center;
+}
+
+a {
+    color:#8a8080;
+    text-decoration: none; 
+}
+
+
