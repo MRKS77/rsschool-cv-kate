@@ -62,12 +62,13 @@
     float: left;
     border-inline-start: 2px solid #b5a642; 
     padding: 0px 5px 0px 5px;
+    margin: 10px 0px 0px 0px;
 }
 
 .column-center {
     background-color: #fae3e0;   
     float: left;
-    margin: 0px 10px 0px 10px;
+    margin: 10px 10px 0px 10px;
     padding: 0px 15px 0px 15px;
 }
 
@@ -76,6 +77,7 @@
     float: left;
     border-inline-end: 2px solid #b5a642;
     padding: 0px 15px 0px 15px;
+    margin: 10px 0px 0px 0px;
 }
 
 .head {
