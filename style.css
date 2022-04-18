@@ -11,6 +11,7 @@
 
 .name {
     position: sticky;
+    z-index: 3;
     top: 20px;
     height: 0px;
     margin: 60px 0px 60px 0px;
@@ -29,12 +30,14 @@
 .left-picture {
     float: left;
     position: absolute;
+    z-index: 1;
     margin: 5px 10px 0px 60px;
 }
 
 .my-photo {
     float: left;
-    position: relative;
+    position: absolute;
+    z-index: 2;
     margin: 90px 50px 0px 150px;
     padding: 1%;
     border: 2px solid #b5a642;
