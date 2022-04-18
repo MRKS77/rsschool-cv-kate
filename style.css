@@ -9,7 +9,6 @@
     text-decoration: overline;
 }
 
-
 .name {
     position: sticky;
     top: 20px;
@@ -29,7 +28,16 @@
 
 .left-picture {
     float: left;
+    position: absolute;
     margin: 5px 10px 0px 60px;
+}
+
+.my-photo {
+    float: left;
+    position: relative;
+    margin: 90px 50px 0px 150px;
+    padding: 1%;
+    border: 2px solid #b5a642;
 }
 
 .contacts {
@@ -44,7 +52,6 @@
 .second {
     background-color: #faf0e6;
     padding: 10px 0px 220px 15%;
-
 }
 
 .column-left {
