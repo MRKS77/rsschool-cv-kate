@@ -46,32 +46,47 @@ a {
     z-index: 10;
 }
     /* Box model */
-.first {
+.section-top {
     padding: 10px 0px 10px 0px;
     background-color: #fae3e0;
     text-align: center;
 }
 
-.left-picture {
-    float: left;
-    position: absolute;
-    z-index: 1;
-    margin: 5px 10px 0px 60px;
+.section-top-container {
+    width: 1400px;
+    height: 500px;
+    margin: 40px auto;
+    padding: 0 50px;
+    box-sizing: border-box;
 }
 
-.my-photo {
+.section-top-container > div {
+    width: 600px;
+    height: 500px;
+    box-sizing: border-box;
+}
+
+.avatar-background {
+    position: relative;
     float: left;
+    background-image: url("photo.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.avatar {
     position: absolute;
-    z-index: 2;
-    margin: 90px 50px 0px 150px;
-    padding: 1%;
+    top: 50%;
+    left: 50%;
+    padding: 20px;
+    transform: translate(-50%, -50%);
     border: 2px solid #b5a642;
     box-shadow:  20px 20px rgba(0,0,0,0.19), 2px 2px 2px rgba(0,0,0,0.23);
 }
 
 .contacts {
-    width: fit-content;
-    margin-left: 50%;
+    float: right;
     background-color: #faf0e6;
     padding: 5px 10px 5px 5px;
     border-inline-start: 2px solid #b5a642;
