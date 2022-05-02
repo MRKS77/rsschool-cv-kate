@@ -41,6 +41,22 @@ section {
 	padding: 10px 0 10px 0;
 }
 
+input, textarea, button {
+	outline: none;
+	border: 2px solid #b5a642;
+	font: 18px 'Garamond', serif;
+}
+
+button {
+	background: linear-gradient(32deg, #FFCCCC, #d2bacb);
+	color:#8b7b12;
+	font-family: 'Cinzel', serif;
+}
+
+textarea {
+	resize: none;
+}
+
 #katerina-mikhaylova {
 	text-decoration: overline;
 }
@@ -168,8 +184,24 @@ section {
 	padding: 40px 50px;
 }
 
-.third {
-	padding: 20px 250px 20px 250px;
+.bottom-section-container > form {
+	width: 390px;
+	margin: 0 auto;
+}
+
+.bottom-section-container > form > * {
+	display: block;
+	width: 100%;
+}
+
+.bottom-section-container > form > input, textarea, button {
+	margin-bottom: 20px;
+	min-height: 40px;
+  padding: 0.375rem 0.75rem;
+}
+
+.bottom-section-container > form > label {
+	margin-bottom: 10px;
 }
 
 .footer {

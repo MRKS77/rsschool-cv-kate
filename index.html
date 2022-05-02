@@ -89,16 +89,13 @@
 			<div class="bottom-section-container container">
 				<form action="katya.mikhaylova.98@list.ru">
 					<label for="email">Your email:</label>
-					<br />
-					<input type="text" id="email">
-				</form>
-				<br />
-				<form>
-					<label for="name">Your message for me:</label>
-					<br />
-					<textarea name="/" id="" cols="50" rows="10"></textarea>
-					<br />
-					<input type="submit" name="" id="">
+					<input name="email" type="email" id="email" placeholder="Type your email..." required>
+					<label for="message">Your message for me:</label>
+					<textarea name="message" id="message" cols="50" rows="10" placeholder="Start your message..."
+						required></textarea>
+					<button type="submit" id="submit-button">
+						Send
+					</button>
 				</form>
 			</div>
 			<hr noshade size="5px" color="#fff" />
