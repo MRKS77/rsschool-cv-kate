@@ -29,7 +29,7 @@ h3 {
 }
 
 a {
-    color:#8a8080;
+    color:#8b7b12;
     text-decoration: none;
 }
 
@@ -88,9 +88,22 @@ a {
 .contacts {
     float: right;
     background-color: #faf0e6;
-    padding: 5px 10px 5px 5px;
-    border-inline-start: 2px solid #b5a642;
-    border-inline-end: 2px solid #b5a642;
+    padding: 20px 45px;
+    border: 2px solid #b5a642;
+}
+
+.contacts > h3:first-of-type {
+    margin-top: 0;
+}
+
+.contacts > h3 {
+    margin: 25px 0;
+}
+
+.contacts > ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 .second {
